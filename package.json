@@ -1,0 +1,24 @@
+{
+  "name": "api-restaurante",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch src/server.ts",
+    "knex": "tsx ./node_modules/knex/bin/cli.js --knexfile ./knexfile.ts"
+  },
+  "author": "Yuri Mendes",
+  "license": "ISC",
+  "description": "API para gerenciar pedidos das mesas de um restaurante",
+  "dependencies": {
+    "express": "^4.19.2",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.12",
+    "tsx": "^4.16.2",
+    "typescript": "^5.8.3"
+  }
+}
